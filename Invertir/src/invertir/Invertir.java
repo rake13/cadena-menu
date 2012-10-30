@@ -35,7 +35,16 @@ public class Invertir
                   System.out.print("el programa tiene como objetivo realizar una serie de instrucciones, las cuales se les a asignado un numero ,elija un numero y espere resultados");
                   break;
      
-    
+    case 2:
+                  
+                  String rakel=lectura.next();
+                  for(int i=rakel.length() - 1; i >= 0; i--)
+                  {
+                      char c = rakel.charAt(i);
+                      System.out.print(c);
+                  }
+                  break;
+
     
     }
      }
