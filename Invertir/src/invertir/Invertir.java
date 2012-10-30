@@ -19,6 +19,25 @@ public class Invertir
     System.out.print ("instituto tecnologico superior de escarcega");
     System.out.print("  raquel");
     
+     
+     int menu=0;
+        java.util.Scanner lectura = new java.util.Scanner(System.in);
+        
+          
+          menu=lectura.nextInt();
+          
+          
+          switch (menu)
+          
+          {
+              case 1:
+                  
+                  System.out.print("el programa tiene como objetivo realizar una serie de instrucciones, las cuales se les a asignado un numero ,elija un numero y espere resultados");
+                  break;
+     
+    
     
     }
-}
+     }
+    }
+
